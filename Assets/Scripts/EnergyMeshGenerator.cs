@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class EnergyMeshGenerator : MonoBehaviour
 {
-    public TextAsset jsonFile; // назначь файл вручную или загрузи через Resources
+    public TextAsset jsonFile; // 1 назначь файл вручную или загрузи через Resources
     public float heightMultiplier = 0.01f;
     public float widthSpacing = 1f;
 
